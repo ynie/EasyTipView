@@ -329,7 +329,7 @@ open class EasyTipView: UIView {
         }
         }()
 
-    fileprivate lazy var tipViewSize: CGSize = {
+    public lazy var tipViewSize: CGSize = {
         
         [unowned self] in
         
